@@ -18,7 +18,7 @@ All of the user information is stored directly into mySQL
 
 Home Page
 
-![alt text]()
+![alt text](./imgs/homepage.png)
 
 
 To check the project, I worked on click on these links: 

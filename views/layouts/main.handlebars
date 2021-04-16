@@ -15,7 +15,7 @@
   </header>
   <nav>
     <a href="/">Home</a>
-    <a class="link" href="/dashboard">Dashboard</a>
+    <a class="link" href="/views/dashboard.handlebars">Dashboard</a>
     {{#if loggedIn}}
     <button id="logout" class="btn-no-style">Logout</button>
     {{else}}
@@ -24,7 +24,7 @@
   </nav>
    <nav>
     {{#if loggedIn}}
-    <button id="create-post" class="btn-no-style"><a href="/">Create A Post!</a></button>
+    <button id="create-post" class="btn-no-style"><a href="/views/create-post.handlebars">Create A Post!</a></button>
     {{/if}}
   </nav>
   <main>
@@ -34,6 +34,7 @@
   </main>
   {{#if loggedIn}}
   <script src="/js/logout.js"></script>
+  
   {{/if}}
 </body>
 
